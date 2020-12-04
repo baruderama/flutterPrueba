@@ -10,7 +10,7 @@ class HeaderRegister extends StatelessWidget {
         children: <Widget>[
           Center(
             child: Text(
-              "Regístrate",
+              "Regístrate!",
               style: TextStyle(color: Colors.white, fontSize: 40),
             ),
           ),
@@ -19,7 +19,7 @@ class HeaderRegister extends StatelessWidget {
           ),
           Center(
             child: Text(
-              "Parkinson's App",
+              "Appkinson",
               style: TextStyle(color: Colors.white, fontSize: 10),
             ),
           )

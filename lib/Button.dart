@@ -49,7 +49,7 @@ class Button extends StatelessWidget {
           addUsers('jorge', '1234');
         },
         padding: EdgeInsets.symmetric(horizontal: 50),
-        color: Color.fromRGBO(0, 160, 227, 1),
+        color: Colors.blue,
         textColor: Colors.white,
         child: Text("Iniciar Sesión", style: TextStyle(fontSize: 15)),
       ),

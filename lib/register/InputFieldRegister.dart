@@ -27,6 +27,17 @@ class InputFieldRegister extends StatelessWidget {
                 border: InputBorder.none),
           ),
         ),
+        Container(
+          padding: EdgeInsets.all(10),
+          decoration: BoxDecoration(
+              border: Border(bottom: BorderSide(color: Colors.grey[200]))),
+          child: TextField(
+            decoration: InputDecoration(
+                hintText: "Enter your password again",
+                hintStyle: TextStyle(color: Colors.grey),
+                border: InputBorder.none),
+          ),
+        ),
       ],
     );
   }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'InputFieldRegister.dart';
 import 'ButtonRegister.dart';
+import 'ButtonGoLogin.dart';
 
 class InputWrapperRegister extends StatelessWidget {
   @override
@@ -20,14 +21,11 @@ class InputWrapperRegister extends StatelessWidget {
           SizedBox(
             height: 40,
           ),
-          Text(
-            "Forgot Password",
-            style: TextStyle(color: Colors.blueGrey[400]),
-          ),
+          ButtonRegister(),
           SizedBox(
             height: 40,
           ),
-          ButtonRegister()
+          ButtonGoLogin(),
         ],
       ),
     );

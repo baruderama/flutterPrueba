@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'InputWrapperRegister.dart';
 import 'HeaderRegister.dart';
 
-class LoginPage extends StatelessWidget {
+class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

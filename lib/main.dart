@@ -4,6 +4,8 @@ import 'LoginPage.dart';
 //import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'dart:async';
 import 'dart:convert';
+import 'register/RegisterPage.dart';
+import 'home/HomePage.dart';
 
 void main() {
   runApp(
@@ -14,17 +16,16 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-        debugShowCheckedModeBanner: false, home: LoginPage());
+    return new MaterialApp(debugShowCheckedModeBanner: false, home: HomePage());
   }
 }
 
-class HomePage extends StatefulWidget {
+class HomePage2 extends StatefulWidget {
   @override
   HomePageState createState() => HomePageState();
 }
 
-class HomePageState extends State<HomePage> {
+class HomePageState extends State<HomePage2> {
   Map data;
   List usersData;
   getUsers() async {
