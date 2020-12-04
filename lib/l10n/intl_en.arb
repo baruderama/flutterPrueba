@@ -1,0 +1,16 @@
+{
+    "greeting": "Hello, world!",
+    "@greeting": {
+      "type": "text",
+      "description": "A friendly greeting."
+    },
+  
+    "newMessages": "{newMessages, plural, =0 {No new messages} =1 {One new message} other {{newMessages} new messages}}",
+    "@newMessages": {
+      "type": "text",
+      "description": "Number of new messages in inbox.",
+      "placeholders": {
+        "newMessages": {}
+      }
+    }
+  }
