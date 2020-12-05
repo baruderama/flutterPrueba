@@ -43,6 +43,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   intl_translation: ^0.17.9
+  flutter_launcher_icons: ^0.7.0
+
+#flutter_icons:
+#  image_path: "icon/cerebroAzul.png"
+#  ios: true
+#  android: true
   
 
 # For information on the generic Dart part of this file, see the
@@ -50,10 +56,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-#  fonts:
-#  - family: Raleway
-#    fonts:
-#      - asset: fonts/Raleway-ExtraLight.ttf
+  fonts:
+  - family: Raleway
+    fonts:
+      - asset: fonts/Raleway-ExtraLight.ttf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -64,6 +70,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/cerebro.png
+    - images/cerebroAzul.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
